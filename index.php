@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row d-flex justify-content-center align-items-middle mt-5">
             <?php
-            include('./modal.php');
+            include('./views/modal.php');
             include('./php_info.php');
             ?>
         </div>
