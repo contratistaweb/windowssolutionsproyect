@@ -49,13 +49,13 @@
 
 
                         <li class="has-children">
-                            <a href="#about-section" class="nav-link">Conocenos</a>
+                            <a href="#about-section" class="nav-link">Sobre nosotros</a>
                             <ul class="dropdown arrow-top">
                                 <li><a href="#team-section" class="nav-link">Equipo</a></li>
                                 <li><a href="#pricing-section" class="nav-link">Cotizaciones</a></li>
                                 <li><a href="#faq-section" class="nav-link">Preguntas frecuentes</a></li>
                                 <li class="has-children">
-                                    <a href="#">Sobre nosotros</a>
+                                    <a href="#">Corporativo</a>
                                     <ul class="dropdown">
                                         <li><a href="#">Historia</a></li>
                                         <li><a href="#">Misión</a></li>
