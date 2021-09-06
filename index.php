@@ -22,8 +22,14 @@
     <div class="container">
         <div class="row d-flex justify-content-center align-items-middle mt-5">
             <?php
+            if(isset($_GET['galery'])){
+                include('./views/galeria.php');
+
+            }elseif(isset($_GET['php'])){
+                include('./php_info.php');
+            }
+
             // include('./views/modal.php');
-            // include('./php_info.php');
             ?>
         </div>
     </div>
