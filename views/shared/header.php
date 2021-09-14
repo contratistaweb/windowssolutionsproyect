@@ -37,22 +37,22 @@
 
 
             <div class="site-logo">
-                <a href="index.html" class="text-black"><span class="text-primary">Brand</a>
+                <a href="index.php?pag=home" class="text-black"><span class="text-primary">Brand</a>
             </div>
 
             <div class="col-12">
                 <nav class="site-navigation text-right ml-auto " role="navigation">
 
                     <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                        <li><a href="#home-section" class="nav-link">Inicio</a></li>
-                        <li><a href="#services-section" class="nav-link">Servicios</a></li>
-
-
+                        <li><a href="index.php?pag=home" class="nav-link <?php isset($_GET["pag"]) ? ($_GET["pag"]=="home"?print "active":print ""):print "active" ?>">Inicio</a></li>
+                        <li><a href="index.php?pag=services" class="nav-link <?php isset($_GET["pag"]) ? ($_GET["pag"]=="services"?print "active":print ""):print "" ?>">Servicios</a></li>
+                        <li><a href="index.php?pag=galery" class="nav-link <?php isset($_GET["pag"]) ? ($_GET["pag"]=="galery"?print "active":print ""):print "" ?>">Galeria</a></li>
+                        <li><a href="index.php?pag=quote" class="nav-link <?php isset($_GET["pag"]) ? ($_GET["pag"]=="quote"?print "active":print ""):print "" ?>">Cotizaciones</a></li>
                         <li class="has-children">
-                            <a href="#about-section" class="nav-link">Sobre nosotros</a>
+                            <a href="index.php?pag=about" class="nav-link <?php isset($_GET["pag"]) ? ($_GET["pag"]=="about"?print "active":print ""):print "" ?>">Sobre nosotros</a>
                             <ul class="dropdown arrow-top">
                                 <li><a href="#team-section" class="nav-link">Equipo</a></li>
-                                <li><a href="#pricing-section" class="nav-link">Cotizaciones</a></li>
+                                <li><a href="#why-us-section" class="nav-link">Por que elejirnos</a></li>
                                 <li><a href="#faq-section" class="nav-link">Preguntas frecuentes</a></li>
                                 <li class="has-children">
                                     <a href="#">Corporativo</a>
@@ -65,11 +65,10 @@
                             </ul>
                         </li>
 
-                        <li><a href="#why-us-section" class="nav-link">Por que elejirnos</a></li>
 
-                        <li><a href="#testimonials-section" class="nav-link">Testimonios</a></li>
-                        <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                        <li><a href="#contact-section" class="nav-link">Contactenos</a></li>
+                        
+                        <li><a href="index.php?pag=blog" class="nav-link <?php isset($_GET["pag"]) ? ($_GET["pag"]=="blog"?print "active":print ""):print "" ?>">Blog</a></li>
+                        <li><a href="index.php?pag=contact" class="nav-link <?php isset($_GET["pag"]) ? ($_GET["pag"]=="contact"?print "active":print ""):print "" ?>">Contactenos</a></li>
                     </ul>
                 </nav>
 
