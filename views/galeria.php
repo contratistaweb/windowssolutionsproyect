@@ -1,14 +1,12 @@
 <?php
 
-for ( $i = 0; $i < 12; $i++) {
+for ($i = 0; $i < 6; $i++) {
 ?>
-    <div class="card">
-        <img class="card-img-top" src="holder.js/100x180/" alt="">
-        <div class="card-body">
-            <h4 class="card-title">esta imagen</h4>
-            <p class="card-text">Es la No. <?php echo $i; ?></p>
-        </div>
+    <div class="col-sm-6 col-md-4">
+        <a class="lightbox" href="https://www.persianasbucaramanga.com/wp-content/uploads/2019/09/lobby-3623669_1024-700x466.jpg">
+            <img src="https://www.persianasbucaramanga.com/wp-content/uploads/2019/09/lobby-3623669_1024-700x466.jpg" alt="Persiana2">
+        </a>
     </div>
 <?php
-    
+
 } ?>
