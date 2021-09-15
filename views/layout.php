@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
     <title>Windows Solutions | Página de inicio</title>
