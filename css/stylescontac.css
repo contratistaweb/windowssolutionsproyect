@@ -1,0 +1,68 @@
+#imagen{
+    width: 80%;
+    height: 200px;
+    background-color: #8186d5;
+    border-radius: 10px;
+  }
+
+  p{
+    color: #8186d5;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ; 
+  }
+
+  #imag{
+      height: 200px;
+      border-radius: 10px;
+  }
+
+  #mensaje{
+      color: #8186d5;
+      font-family:Verdana, Geneva, Tahoma, sans-serif ; 
+      padding: 3px 5px;
+      margin-top: 10px;
+      background-color: rgba(169, 169, 169, 0.26);
+  }
+
+  section form .elemento input{
+      width: 400px;
+      height: 30px;
+      background-color: rgba(129, 135, 213, 0.288);
+      padding: 10px 5px;
+      color: white;
+      border: none;
+      border-bottom: 1px solid #8186d5;
+  }
+
+  #labelcorreo{
+      text-align: center;
+      margin-left: 350px;
+  }
+
+  section form .inputmail input{
+   /* width: 400px;*/
+    height: 30px;
+    background-color: rgba(129, 135, 213, 0.288);
+    padding: 10px 5px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #8186d5;
+}
+
+#textarea{
+    text-align: center;
+    margin-left: 350px;
+}
+
+section form .text{
+     
+     background-color: rgba(129, 135, 213, 0.288);
+     padding: 10px 5px;
+     color: white;
+     border: none;
+     border-bottom: 1px solid #8186d5;
+ }
+
+ section form .label{
+     color: #8186d5;
+     font-family:Verdana, Geneva, Tahoma, sans-serif ;
+ }
