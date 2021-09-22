@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Contac page  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/stylescontac.css">
     <title>Windows Solutions | Página de inicio</title>
 </head>
 
@@ -65,6 +68,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
+    <!-- Contact Page  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 </body>
 
 </html>
