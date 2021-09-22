@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-<link rel="stylesheet" href="css/stylescontac.css">
+
 
 
     <div id="imagen">
@@ -54,4 +53,4 @@
         </form>
     </section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+
