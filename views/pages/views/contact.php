@@ -19,36 +19,39 @@
                 </div>
                 <div class="col-md-6 elemento">
                     <label for="inputPassword5" class="form-label label">Apellidos</label>
-                    <input type="text" id="Apellido" name="Apellido" class="form-control">
+                    <input type="text" id="apellido" name="apellido" class="form-control">
                 </div>
             </div>
             <div class="inputmail mt-2">
                 <label id="labelcorreo" for="inputPassword5" class="form-label label">Correo Electrónico</label>
-                <input type="email" id="Correo" name="Correo" class="form-control">
+                <input type="email" id="email" name="email" class="form-control">
             </div>
             <div class="row">
                 <div class="col-md-6 elemento mt-2">
                     <label for="inputPassword5" class="form-label label">Ciudad</label>
-                    <input type="text" id="Ciudad" name="Ciudad" class="form-control">
+                    <input type="text" id="ciudad" name="ciudad" class="form-control">
                 </div>
                 <div class="col-md-6 elemento mt-2">
                     <label for="inputPassword5" class="form-label label">Dirección</label>
-                    <input type="text" id="Dirección" name="Dirección" class="form-control">
+                    <input type="text" id="direccion" name="direccion" class="form-control">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 elemento mt-2">
                     <label for="inputPassword5" class="form-label label">Celular</label>
-                    <input type="text" id="Celular" name="Celular" class="form-control">
+                    <input type="text" id="celular" name="celular" class="form-control">
                 </div>
                 <div class="col-md-6 elemento mt-2">
                     <label for="inputPassword5" class="form-label label">Teléfono</label>
-                    <input type="text" id="Teléfono" name="Teléfono" class="form-control">
+                    <input type="text" id="telefono" name="telefono" class="form-control">
                 </div>
             </div>
             <div class="form-floating mt-2">
                 <label id="textarea" class="label" for="floatingTextarea2">Comentarios</label>
                 <textarea class="form-control text" placeholder="Deja un comentario aqui" id="floatingTextarea2" style="height: 100px"></textarea>
+            </div>
+            <div id="inputenviar">
+                <input type="submit" name="enviar" id="enviar" class="enviar">
             </div>
         </form>
     </section>
