@@ -2,7 +2,7 @@
 
 
     <div id="imagen">
-        <img src="images/contactenos.png" alt="contáctenos" id="imag">
+        <img src="./assets/images/contactenos.png" alt="contáctenos" id="imag">
     </div>
 
     <p id="mensaje">Estimado cliente... En el siguiente formulario deposite los datos correspondientes
