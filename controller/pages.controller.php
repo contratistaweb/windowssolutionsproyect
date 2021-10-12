@@ -57,7 +57,11 @@ class PagesControlller
 
         include_once './views/shared/footer.php';
     }
+    public function Details()
+    {
 
+        include_once './views/pages/views/details.php';
+    }
     public function TitlePage($title)
     {
 

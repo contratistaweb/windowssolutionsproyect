@@ -37,8 +37,8 @@
                     <div class="card-title"><CENTER><b>PRODUCTOS</b><CENTER></div>
                           <div class="card-body">
                                 <h5 class="card-title"></h5>
-                                <p class="card-text"> - SHEER ELEGANCE</p>
-                                <p class="card-text"> - PANEL JAPONÉS  </p> 
+                                <a href="./?pag=details#sheer" class="card-text"> - SHEER ELEGANCE -</a> </br>
+                                <a href="./?pag=details#japones"class="card-text"> - PANEL JAPONÉS -</a> 
                                 <p class="card-text"> - PERSIANAS VERTICALES</p>
                                 <p class="card-text"> - PERSIANAS DE ALUMINIO</p>
                                 <p class="card-text"> - ENROLLABLES SOLARES </p>

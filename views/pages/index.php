@@ -32,6 +32,9 @@ $pages->Header(); ?>
                 case "contact":
                     $pages->Contact();
                     break;
+                case "details":
+                    $pages->Details();
+                    break;
                 default:
                     $pages->PageNotFound();
                     break;
