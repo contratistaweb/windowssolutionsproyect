@@ -1,25 +1,29 @@
 <div class="container">
-    <div class="row">
-        <form class="row col col-md-4 mx-auto my-auto card shadow p-0 bg-light text-dark">
-            <fieldset class="m">
-                <legend class="display-5 text-center">Iniciar Sesion</legend>
-                <div class="form-group row row-cols-1">
-                    <div class="input-group">
-                        <i class="fas fa-user input-group-text text-primary"></i>
-                        <input type="email" class="form-control col-12" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text col-12">Nunca compartiremos su correo electrónico con nadie.</div>
-                    </div>
+    <div class="d-flex align-items-stretch vh-100">
+        <form class="row col col-sm-4 col-md-6 mx-auto my-auto p-3 card shadow bg-light text-dark">
+            <legend class="display-5 text-center col-12">Iniciar Sesion</legend>
+
+            <div class="form-group my-3 col-12">
+                <div class="input-group">
+                    <span class="input-group-text text-primary">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                 </div>
-                <div class="form-group row row-cols-1">
-                    <div class="input-group">
-                        <i class="fas fa-key input-group-text text-primary"></i>
-                        <input type="password" class="form-control col-12" id="exampleInputPassword" aria-describedby="passwordHelp">
-                        <div id="passwordHelp" class="form-text col-12">Nunca compartiremos su password electrónico con nadie. </div>
-                    </div>
+            </div>
+
+
+            <div class="form-group my-3 col-12">
+                <div class="input-group">
+                    <span class="input-group-text text-primary">
+                        <i class="fas fa-key"></i>
+                    </span>
+                    <input type="password" class="form-control" id="exampleInputPassword" placeholder="Contraseña">
                 </div>
-            </fieldset>
-            <div class="row">
-                <button type="submit" class="btn btn-primary btn-block m-3">Login</button>
+            </div>
+
+            <div class="form-group d-flex flex-row my-3 col-12">
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
             </div>
 
         </form>

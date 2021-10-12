@@ -41,6 +41,7 @@
     <script src="assets/js/jquery.sticky.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/owl.carousel.js"></script>
+    <script src="https://kit.fontawesome.com/67c6ce199d.js" crossorigin="anonymous"></script>
     <!-- Contact Page  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 </body>
