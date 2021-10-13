@@ -44,6 +44,9 @@
     <script src="https://kit.fontawesome.com/67c6ce199d.js" crossorigin="anonymous"></script>
     <!-- Contact Page  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
 </body>
 
 </html>
