@@ -1,6 +1,3 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-<link rel="stylesheet" href="css/gallery-grid.css">
-
 <div class="gallery-container">
     <h1>Nuestra Galería</h1>
     <p class="page-description text-center">Estamos orgullosos de nuestro trabajo</p>
@@ -19,8 +16,3 @@
         </div>
     </div>
 </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
-    baguetteBox.run('.tz-gallery');
-</script>
