@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/stylescontac.css">
     <link rel="stylesheet" href="assets/css/awl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/gallery-grid.css">
-    
+
 </head>
 
 <body>
@@ -23,7 +23,7 @@
     include_once "./controller/admin.controller.php";
 
     $pages = new PagesControlller();
-    $admin = new AdminControlller();
+    $admin = new AdminController();
 
     if (isset($_GET['pag'])) {
         $pages->Index('./views/');

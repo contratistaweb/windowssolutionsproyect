@@ -66,8 +66,6 @@ class PagesControlller
     {
 
         echo '<script>
-
-        
             $("head").append("<title>Windows Solutions | ' . $title . '</title>");
         </script>';
     }
