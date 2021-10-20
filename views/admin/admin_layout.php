@@ -28,7 +28,7 @@
                 <li><a href="/?admin=images">images</a></li>
                 <li><a href="/?admin=products">products</a></li>
                 <li><a href="/?admin=users">users</a></li>
-                <li><a href="/?admin=contact">users</a></li>
+                <li><a href="/?admin=contact">contact</a></li>
                 <li><a href="#">salir</a></li>
             </ul>
         </div> <!-- /#admin-sidebar -->
