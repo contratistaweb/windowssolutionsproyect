@@ -33,8 +33,8 @@
 <div class="container-fluid mt-5" overflow="hidden" >
     <div class="row">
         <div class="col-lg-6">
-             <div class="card bg-light mb-3" style="max-width: 50rem;">
-                    <div class="card-title"><CENTER><b>PRODUCTOS</b><CENTER></div>
+             <div class="card bg-light mb-3 " style="max-width: 50rem;">
+                    <div class="card-title text-center"><b><h3>PRODUCTOS</h3></b></div>
                           <div class="card-body">
                                 <h5 class="card-title"></h5>
                                 <a href="./?pag=details#sheer" class="card-text"> - SHEER ELEGANCE -</a> </br>
@@ -49,12 +49,15 @@
                           </div>       
                     </div>
               </div>  
-            <div class="col-lg-6">     
-                    <div class="card bg-light mb-3" style="max-width: 50rem;">
-                        <div class="card-title"><CENTER><b>PERSIANAS WINDOWS SOLUTIONS</b><CENTER></div>
+            <div class="col-lg-6 d-flex align-items-stretch ">  
+                   <div class="card bg-light mb-3" style="max-width: 50rem;">
+                        <div class="card-title text-center"><b><h3>PERSIANAS WINDOWS SOLUTIONS<h3></b></div>
                           <div class="card-body">
                                 <h5 class="card-title"></h5>
-                                <p class="card-text"> Somos una empresa con 13 años de experiencia en asesoría y suministro de persianas, cortinas y polarización. Contamos con personal calificado en la instalación de los diferentes productos que brindamos como: Panel Japonés, Enrollables, Verticales, Macro y Mini Maderas, Persianas de Aluminio, Romanas, entre otras.</p>
+                                <p class="card-text"> Somos una empresa con 13 años de experiencia en asesoría y
+                                     suministro de persianas, cortinas y polarización. 
+                                     Contamos con personal calificado en la instalación de los diferentes
+                                     productos que brindamos como: Panel Japonés, Enrollables, Verticales, Sheer elegance, Persianas de Aluminio, Romanas, Polarización.</p>
                                 
                           </div>       
                     </div>       
