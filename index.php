@@ -24,7 +24,7 @@
     include_once "./controller/admin.controller.php";
 
     $pages = new PagesControlller();
-    $admin = new AdminControlller();
+    $admin = new AdminController();
 
     if (isset($_GET['pag'])) {
         $pages->Index('./views/');
