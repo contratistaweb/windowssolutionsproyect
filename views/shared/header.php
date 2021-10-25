@@ -51,15 +51,16 @@
                         <li class="has-children">
                             <a href="./?pag=about" class="nav-link <?php isset($_GET["pag"]) ? ($_GET["pag"] == "about" ? print "active" : print "") : print "" ?>">Sobre nosotros</a>
                             <ul class="dropdown arrow-top">
-                                <li><a href="#team-section" class="nav-link">Equipo</a></li>
-                                <li><a href="#why-us-section" class="nav-link">Por que elejirnos</a></li>
-                                <li><a href="#faq-section" class="nav-link">Preguntas frecuentes</a></li>
+                                <li><a href="#equipo" class="nav-link">Equipo</a></li>
+                                <li><a href="#elegirnos" class="nav-link">Por que elegirnos</a></li>
+                                <li><a href="#valores" class="nav-link">Valores</a></li>
+                                <li><a href="#preguntas" class="nav-link">Preguntas frecuentes</a></li>
                                 <li class="has-children">
                                     <a href="#">Corporativo</a>
                                     <ul class="dropdown">
-                                        <li><a href="/about.php?content=history">Historia</a></li>
-                                        <li><a href="#">Misión</a></li>
-                                        <li><a href="#">Visión</a></li>
+                                        <li><a href="#history">Historia</a></li>
+                                        <li><a href="#mision">Misión</a></li>
+                                        <li><a href="#vision">Visión</a></li>
                                     </ul>
                                 </li>
                             </ul>
