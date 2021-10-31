@@ -24,6 +24,7 @@ if (isset($_GET['pag'])) {
         <link rel="stylesheet" href="assets/css/stylescontac.css">
         <link rel="stylesheet" href="assets/css/awl.carousel.min.css">
         <link rel="stylesheet" href="assets/css/gallery-grid.css">
+        <link rel="stylesheet" href="assets/css/styleabout.css">
     </head>
 
     <body>
@@ -64,6 +65,7 @@ if (isset($_GET['pag'])) {
             <link rel="stylesheet" href="assets/css/stylescontac.css">
             <link rel="stylesheet" href="assets/css/awl.carousel.min.css">
             <link rel="stylesheet" href="assets/css/gallery-grid.css">
+            <link rel="stylesheet" href="assets/css/styleabout.css">
         </head>
 
         <body>
