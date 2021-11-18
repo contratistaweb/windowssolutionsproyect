@@ -3,6 +3,7 @@
 <?php
 include_once "./controller/pages.controller.php";
 include_once "./controller/admin.controller.php";
+include_once "./controller/images.controller.php";
 
 $pages = new PagesControlller();
 $admin = new AdminController();
