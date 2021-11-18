@@ -29,7 +29,7 @@ if (isset($_GET['deleteItem'])) {
             function redirect(route) {
                 window.location = route;
             }
-            redirect("/windowssolutionsproyect/?admin=images");
+            redirect("/?admin=images");
         </script>';
     }
     echo '<br>' . $id;
@@ -41,7 +41,7 @@ if (isset($_GET['deleteItem'])) {
 ?>
         <div>
             <br>
-            <a name="addimages" id="addimages" class="btn btn-primary" role="button" href="/windowssolutionsproyect/?admin=images&update&addimages">Agregar</a>
+            <a name="addimages" id="addimages" class="btn btn-primary" role="button" href="/?admin=images&update&addimages">Agregar</a>
             <br>
             <br>
         </div>
@@ -68,8 +68,8 @@ if (isset($_GET['deleteItem'])) {
                         </td>
                         <td>
                             <div class="d-flex justify-content-between">
-                                <a name="update" id="update" class="btn btn-primary" role="button" href="/windowssolutionsproyect/?admin=images&update=<?= $value['id_img']; ?>"><i class="fa fa-pencil"></i></a>
-                                <form action="/windowssolutionsproyect/?admin=images&deleteItem=<?= $value['id_img']; ?>" method="post">
+                                <a name="update" id="update" class="btn btn-primary" role="button" href="/?admin=images&update=<?= $value['id_img']; ?>"><i class="fa fa-pencil"></i></a>
+                                <form action="/?admin=images&deleteItem=<?= $value['id_img']; ?>" method="post">
                                     <input type="hidden" name="id_img" value="<?= $value['id_img']; ?>">
                                     <button type="submit" name="delete" class="btn btn-danger" role="button"><i class="fa fa-trash"></i></button>
                                 </form>
@@ -87,7 +87,7 @@ if (isset($_GET['deleteItem'])) {
             
         ?>
 
-            <form method="post" action="/windowssolutionsproyect/?admin=images&add">
+            <form method="post" action="/?admin=images&add">
 
                 <legend>Agregar images</legend>
 
@@ -107,7 +107,7 @@ if (isset($_GET['deleteItem'])) {
 
                 <div class="d-flex row justify-content-between">
                     <button type="submit" class="btn btn-success col-md-2 m-1">Enviar</button>
-                    <a class="btn btn-outline-primary col-md-2 m-1" onclick="redirect('/windowssolutionsproyect/?admin=images');">Atras</a>
+                    <a class="btn btn-outline-primary col-md-2 m-1" onclick="redirect('/?admin=images');">Atras</a>
                 </div>
 
             </form>
@@ -124,7 +124,7 @@ if (isset($_GET['deleteItem'])) {
             $imagen = ImagesController::ctrConsultarRegistro($_GET['update']);
             foreach ($imagen as $key => $value) {
             ?>
-                <form method="post" action="/windowssolutionsproyect/?admin=images&action">
+                <form method="post" action="/?admin=images&action">
 
                     <legend>Update images</legend>
 
@@ -144,7 +144,7 @@ if (isset($_GET['deleteItem'])) {
 
                     <div class="d-flex row justify-content-between">
                         <button type="submit" class="btn btn-success col-md-2 m-1">Actualizar</button>
-                        <a class="btn btn-outline-primary col-md-2 m-1" onclick="redirect('/windowssolutionsproyect/?admin=images');">Atras</a>
+                        <a class="btn btn-outline-primary col-md-2 m-1" onclick="redirect('/?admin=images');">Atras</a>
                     </div>
 
                 </form>
