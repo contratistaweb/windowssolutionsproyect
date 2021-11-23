@@ -1,4 +1,4 @@
-<h3 class="display-4" id="sheer">SHEER ELEGANCE</h3>
+<h3 class="display-4" id="sheer">SHEER </h3>
 
 
 
@@ -119,7 +119,7 @@ $productos = array(
 
 
 
-<h3 class="display-4" id="japones" >Panel Japones</h3>
+<h3 class="display-4" id="japones" >Panel</h3>
 <div class="container">
 <?php
 $productos = array(	
