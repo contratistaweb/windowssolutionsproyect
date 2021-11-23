@@ -17,7 +17,7 @@ class Database
 
     function conectar (){
         try {
-            $dbh = new PDO('mysql:host=localhost;dbname=windowss_wsdb', "WindowsSolutions17", "windowss_wsdb");
+            $dbh = new PDO('mysql:host=localhost;dbname=windowss_wsdb', "root", "");
            
             return $dbh ;
         } catch (PDOException $e) {
