@@ -97,6 +97,7 @@
                                     <p class="card-text">precio: <?= $value['est_m2_prod']; ?></p>
 
                                     <form action="http://localhost/windowssolutionsproyect/?admin=products&delete=<?= $value['id_prod']; ?>" method="post">
+
                                       <input type="hidden" name="id_prod" value="<?= $value['id_prod']; ?>">
                                       <button type="submit" name="delete" class="btn btn-danger" role="button"><i class="fa fa-trash"></i></button>
                                  <a name="update" id="update" class="btn btn-primary" role="button" href="http://localhost/windowssolutionsproyect/?admin=products&update=<?= $value['id_prod']; ?>"><i class="fa fa-pencil"></i></a>
@@ -199,6 +200,7 @@
 
         <?php } else if (isset($_POST['updatep'])) {
 
+
             ProductsController::update($_POST['id'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
 
 
@@ -252,7 +254,6 @@
 
 
                 <?php  } ?>
-
 
 
             </div>

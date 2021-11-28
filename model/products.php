@@ -1,5 +1,6 @@
 <?php
 
+
 class model {
     private $conexion;
     function __construct()
@@ -102,9 +103,4 @@ function updates($id,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
    
 
 }
-
-
-
-
-
 
