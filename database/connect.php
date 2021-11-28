@@ -14,26 +14,5 @@ class Database
         return $this->db;
     }
 
-    // function conectar()
-    // {
-    //     try {
-    //         $dbh = new PDO('mysql:host=localhost;dbname=windowss_wsdb', "WindowsSolutions17", "windowss_wsdb");
-
-    //         return $dbh;
-    //     } catch (PDOException $e) {
-    //         print "Error!: " . $e->getMessage() . "<br/>";
-    //         die();
-    //     }
-    // }
 }
 
-// class Conexion
-// {
-
-//     static public function conectar()
-//     {
-//         $link = new PDO("mysql:host=localhost;dbname=windowss_wsdb", "windowss_wsdb", "WindowsSolutions17");
-//         $link->exec("set names utf8");
-//         return $link;
-//     }
-// }
