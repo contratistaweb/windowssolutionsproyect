@@ -1,9 +1,9 @@
 <?php
-// include_once 'database/connect.php';
-// include_once "model/products.php";
-
-// class ProductsController
-// {
+include_once 'database/connect.php';
+include_once "model/products.php";
+//controller
+class ProductsController
+{
 
 //     public function Index()
 //     {
