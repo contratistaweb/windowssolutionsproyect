@@ -200,7 +200,7 @@
         <?php } else if (isset($_POST['updatep'])) {
 
 
-          ProductsController::updates($_POST['id'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
+          ProductsController::updatess($_POST['id'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
 
 
             header('Location: http://localhost/windowssolutionsproyect/?admin=products');

@@ -42,7 +42,7 @@ class ProductsController
 
   }
 
-    static public function updates ($id,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
+    static public function updatess ($id,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
      
       $get = new model();
         
