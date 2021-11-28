@@ -36,7 +36,7 @@ function getimg(){
 
 
 
-function create($id_imagen,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
+function creates($id_imagen,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
    
     $consulta = "INSERT INTO productos (id_img,nombre_prod,desc_prod,est_m2_prod,categoria) VALUES ('$id_imagen','$nombre_product', '$desc_prod', '$est_m2_prod',  '$categoria')";
      $this->conexion->getConnection()->query($consulta);
@@ -45,7 +45,7 @@ function create($id_imagen,$nombre_product, $desc_prod , $est_m2_prod, $categori
 }
 
 
-function delete($id){
+function deletes($id){
    
     $consulta = "DELETE FROM productos WHERE id_prod = '$id'";
     $this->conexion->getConnection()->query($consulta);

@@ -24,7 +24,7 @@ class ProductsController
      
       $get = new model();
         
-     return $get->delete($id);
+     return $get->deletes($id);
         
        
 
@@ -36,7 +36,7 @@ class ProductsController
         
        $get = new model();
         
-       return $get->create($id_imagen,$nombre_product, $desc_prod , $est_m2_prod, $categoria);
+       return $get->creates($id_imagen,$nombre_product, $desc_prod , $est_m2_prod, $categoria);
         
        
 
