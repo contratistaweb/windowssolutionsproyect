@@ -26,7 +26,7 @@ if (isset($_GET['pag'])) {
         <link rel="stylesheet" href="assets/css/awl.carousel.min.css">
         <link rel="stylesheet" href="assets/css/gallery-grid.css">
         <link rel="stylesheet" href="assets/css/styleabout.css">
-        <!-- <link rel="stylesheet" href="assets/css/propio.css"> -->
+        <link rel="stylesheet" href="assets/css/propio.css">
     </head>
 
     <body>
@@ -68,7 +68,7 @@ if (isset($_GET['pag'])) {
             <link rel="stylesheet" href="assets/css/awl.carousel.min.css">
             <link rel="stylesheet" href="assets/css/gallery-grid.css">
             <link rel="stylesheet" href="assets/css/styleabout.css">
-            <!-- <link rel="stylesheet" href="assets/css/propio.css"> -->
+            <link rel="stylesheet" href="assets/css/propio.css"> 
         </head>
 
         <body>
@@ -98,7 +98,7 @@ if (isset($_GET['pag'])) {
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
             <link rel="stylesheet" href="assets/css/adminStyles.css">
-            <!-- <link rel="stylesheet" href="assets/css/propio.css"> -->
+            <link rel="stylesheet" href="assets/css/propio.css"> 
             <title>Windows Solutions | Administacion del sitio</title>
         </head>
 
