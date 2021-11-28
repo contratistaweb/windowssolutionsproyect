@@ -20,12 +20,12 @@ class ProductsController
        
 
    }
-  }
-    /*static public function delete ($id){
+  
+    static public function delete ($id){
      
-       $get = new model();
+      $get = new model();
         
-       return $get->delete($id);
+     return $get->delete($id);
         
        
 
@@ -43,7 +43,6 @@ class ProductsController
 
   }
 
-      
     static public function update ($id,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
      
       $get = new model();
@@ -57,4 +56,3 @@ class ProductsController
 
     
  }
-*/
