@@ -24,48 +24,76 @@ function getProducts(){
    
 
 }
-
-function getimg(){
+}
+/*function getimg(){
    
+    $query=$this->conexion->Conectar();
+    $prepare = $query->prepare('SELECT nombre_img, id_img FROM imagenes');
 
-    $consulta = "SELECT nombre_img, id_img FROM imagenes";
-    $resultado= $this->conexion->getConnection()->query($consulta);
-    return $resultado->num_rows <= 0 ? "no hay resultado":$resultado;
+    $prepare->execute();
+    $resultado=$prepare->fetchAll(PDO::FETCH_ASSOC);
+    return empty($resultado) ? "no hay resultado":$resultado;
+   return $resultado;
+  
 
 }
 
 
-
-function creates($id_imagen,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
+function create($id_imagen,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
    
-    $consulta = "INSERT INTO productos (id_img,nombre_prod,desc_prod,est_m2_prod,categoria) VALUES ('$id_imagen','$nombre_product', '$desc_prod', '$est_m2_prod',  '$categoria')";
-     $this->conexion->getConnection()->query($consulta);
-    
+    $query=$this->conexion->Conectar();
+    $prepare = $query->prepare('INSERT INTO productos (id_img,nombre_prod,desc_prod,est_m2_prod,categoria) VALUES (?,?,?,?,?)');
+    $prepare->bindParam(1, $id_imagen, PDO::PARAM_INT);
+    $prepare->bindParam(2, $nombre_product, PDO::PARAM_STR);
+    $prepare->bindParam(3, $desc_prod, PDO::PARAM_STR);
+    $prepare->bindParam(4, $est_m2_prod, PDO::PARAM_INT);
+    $prepare->bindParam(5, $categoria, PDO::PARAM_STR);
+    $prepare->execute();
+    return $prepare;
+  
 
 }
 
-
-function deletes($id){
+function delete($id){
    
-    $consulta = "DELETE FROM productos WHERE id_prod = '$id'";
-    $this->conexion->getConnection()->query($consulta);
+    $query=$this->conexion->Conectar();
+    $prepare = $query->prepare('DELETE FROM productos WHERE id_prod = ?');
+    $prepare->bindParam(1, $id, PDO::PARAM_INT);
+ 
+    $prepare->execute();
+   
+   return $prepare;
+  
 
 }
-
 
 
 function byid($id){
    
-    $consulta = "SELECT nombre_prod,desc_prod,est_m2_prod, id_prod FROM productos WHERE id_prod = '$id'";
-    $resultado= $this->conexion->getConnection()->query($consulta);
-    return $resultado->num_rows <= 0 ? "no hay resultado":$resultado;
+    $query=$this->conexion->Conectar();
+    $prepare = $query->prepare('SELECT nombre_prod,desc_prod,est_m2_prod, id_prod FROM productos WHERE id_prod = ?');
+    $prepare->bindParam(1, $id, PDO::PARAM_INT);
+    $prepare->execute();
+    $resultado=$prepare->fetchAll(PDO::FETCH_ASSOC);
+    empty($resultado) ? "no hay resultado":$resultado;
+    return $resultado;
+  
 
 }
 
 function updates($id,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
    
-    $consulta = "UPDATE productos SET nombre_prod= '$nombre_product',desc_prod='$desc_prod',est_m2_prod='$est_m2_prod',categoria='$categoria' WHERE id_prod='$id'";
-    $this->conexion->getConnection()->query($consulta);
+    $query=$this->conexion->Conectar();
+    $prepare = $query->prepare('UPDATE productos SET nombre_prod= ?,desc_prod=?,est_m2_prod=?,categoria=? WHERE id_prod=?');
+
+    $prepare->bindParam(1, $nombre_product, PDO::PARAM_STR);
+    $prepare->bindParam(2, $desc_prod, PDO::PARAM_STR);
+    $prepare->bindParam(3, $est_m2_prod, PDO::PARAM_INT);
+    $prepare->bindParam(4, $categoria, PDO::PARAM_STR);
+    $prepare->bindParam(5, $id, PDO::PARAM_INT);
+    $prepare->execute();
+    return $prepare;
+  
 
 }
 
@@ -74,4 +102,4 @@ function updates($id,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
    
 
 }
-
+*/
