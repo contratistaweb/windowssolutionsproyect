@@ -83,6 +83,10 @@
                 <div class="card-group ">
 
                     <?php $resultado = ProductsController::get();
+                    if($resultado=="no hay resultado"){
+                        echo "no hay productos";
+                        return;
+                    }
                     foreach ($resultado as $key => $value) { ?>
                         <div class="col-md-6 mt-2">
                             <div class="card " style="margin-left: 3%;">
@@ -201,6 +205,15 @@
             header('Location: http://localhost/windowssolutionsproyect/?admin=products');
         } else {
             $resultado = ProductsController::get();
+            if($resultado=="no hay resultado"){  
+                 echo "   no hay productos  </br>"?>
+                <br>
+                <a name="addimages" id="addimages" class="btn btn-primary mb-1 " role="button" href="http://localhost/windowssolutionsproyect/?admin=products&add" style="margin-left: 1%;">Agregar producto</a>
+    
+    
+                <div class="card-group ">
+              
+          <?php  }else{
         ?>
 
             <br>
@@ -247,6 +260,6 @@
 
 
         <?php  } ?>
-
+        <?php  } ?>
 
         </div>

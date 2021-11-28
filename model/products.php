@@ -103,8 +103,6 @@ function updates($id,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
 
 }
 
-$get = new model();
-$get->getProducts();
 
 
 
