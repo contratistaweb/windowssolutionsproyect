@@ -10,7 +10,7 @@ class ProductsController
         include_once 'views/admin/components/products/index.php';
     
    }
-    static public function get (){
+    static public function gets (){
      
     
       $get = new model();
@@ -20,7 +20,7 @@ class ProductsController
 
    }
   
-    static public function delete ($id){
+    static public function deletes ($id){
      
       $get = new model();
         
@@ -31,7 +31,7 @@ class ProductsController
    }
 
     
-   static public function create ($id_imagen,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
+   static public function creates ($id_imagen,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
      
         
        $get = new model();
@@ -42,7 +42,7 @@ class ProductsController
 
   }
 
-    static public function update ($id,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
+    static public function updates ($id,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
      
       $get = new model();
         

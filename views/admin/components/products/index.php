@@ -81,7 +81,7 @@
 
                 <div class="card-group ">
 
-                    <?php $resultado = ProductsController::get();
+                    <?php $resultado = ProductsController::gets();
                     if($resultado=="no hay resultado"){
                         echo "no hay productos";
                         return;
@@ -121,12 +121,12 @@
     } else if (isset($_POST['delete'])) {
 
 
-       ProductsController::delete(($_POST['id_prod']));
+       ProductsController::deletes(($_POST['id_prod']));
         header('Location: http://localhost/windowssolutionsproyect/?admin=products');
         ?>
 
         <?php } elseif (isset($_POST['adds'])) {
-       ProductsController::create($_POST['id_img'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
+       ProductsController::creates($_POST['id_img'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
 
         header('Location: http://localhost/windowssolutionsproyect/?admin=products');
         ?>
@@ -200,12 +200,12 @@
         <?php } else if (isset($_POST['updatep'])) {
 
 
-          ProductsController::update($_POST['id'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
+          ProductsController::updates($_POST['id'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
 
 
             header('Location: http://localhost/windowssolutionsproyect/?admin=products');
         } else {
-            $resultado = ProductsController::get();
+            $resultado = ProductsController::gets();
            
             if($resultado=="no hay resultado"){  
                  echo "   no hay productos  </br>"?>
