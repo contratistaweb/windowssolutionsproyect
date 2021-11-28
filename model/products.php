@@ -2,31 +2,30 @@
 
 
 class model {
-    private $conexion;
+        private $conexion;
+   
     function __construct()
     {
         
         $this->conexion = new Database();
-       
+        
     }
 
   
 function getProducts(){
    
-    $query=$this->conexion->conectar();
-    $prepare = $query->prepare('SELECT id_prod, nombre_prod, categoria,est_m2_prod,desc_prod, b64_img
+
+    $consulta = "SELECT id_prod, nombre_prod, categoria,est_m2_prod,desc_prod, b64_img
     FROM productos
     INNER JOIN imagenes
-    ON productos.id_img=imagenes.id_img');
-    $prepare->execute();
-    $resultado=$prepare->fetchAll(PDO::FETCH_ASSOC);
-    return empty($resultado) ? "no hay resultado":$resultado;
-
+    ON productos.id_img=imagenes.id_img";
+    $resultado= $this->conexion->getConnection()->query($consulta);
+    return $resultado->num_rows <= 0 ? "no hay resultado":$resultado;
    
 
 }
-
-function getimg(){
+}
+/*function getimg(){
    
     $query=$this->conexion->Conectar();
     $prepare = $query->prepare('SELECT nombre_img, id_img FROM imagenes');
@@ -103,4 +102,4 @@ function updates($id,$nombre_product, $desc_prod , $est_m2_prod, $categoria){
    
 
 }
-
+*/

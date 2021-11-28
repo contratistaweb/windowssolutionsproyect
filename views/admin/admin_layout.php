@@ -10,14 +10,14 @@
     include_once "controller/contact.controller.php";
     include_once "controller/content.controller.php";
     include_once "controller/images.controller.php";
-    // include_once "controller/products.controller.php";
+    include_once "controller/products.controller.php";
 
     $home = new HomeController();
     $users = new UsersController();
     $contact = new ContactController();
     $content = new ContentController();
     $images = new ImagesController();
-    // $products = new ProductsController();
+    $products = new ProductsController();
     $url = 'https://windowssolutionsproject.tk';
     ?>
     <div class="row">
@@ -26,7 +26,7 @@
                 <li><a href="/?admin=home">Home</a></li>
                 <li><a href="/?admin=content">contents</a></li>
                 <li><a href="/?admin=images">images</a></li>
-                <!-- <li><a href="/?admin=products">products</a></li> -->
+                <li><a href="/?admin=products">products</a></li>
                 <li><a href="/?admin=users">users</a></li>
                 <li><a href="/?admin=contact">contact</a></li>
                 <li><a href="#">salir</a></li>
@@ -53,9 +53,9 @@
                             case "images":
                                 $images->Index();
                                 break;
-                                // case "products":
-                                //     $products->Index();
-                                //     break;
+                                case "products":
+                                 $products->Index();
+                                 break;
                             case "users":
                                 $users->Index();
                                 break;
