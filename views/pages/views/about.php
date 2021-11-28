@@ -14,19 +14,20 @@
         <div class="col-md-6">
             <div id="elegirnos">
                 <h4>¿PORQUÉ ELEGIRNOS? </h4>
-                <p class="card-text abouttexto"> Somos una Compañia con presencia en el mercado Nacional e Internacional, y trabajamos diariamente para que nuestros clientes
-                    nos tengan presente cuando desean expandirse, modernizar sus equipos y para requerir servicios especializados. Si Ud. aún no es cliente de Sierra,
-                    sepa que será integrado a este ámbito y filosofía de trabajo.
+                <p class="card-text abouttexto"> Somos una empresa con 13 años de experiencia en asesoría y suministro de persianas, cortinas y polarización.
+                    Contamos con personal calificado en la instalación de los diferentes productos que brindamos como: Panel Japonés, Enrollables, Verticales,
+                    Macro y Mini Maderas, Persianas de Aluminio, Romanas, entre otras
                 </p>
             </div>
         </div>
         <div class=" col-md-6">
             <div id="valores">
                 <h4>VALORES CORPORATIVOS </h4>
-                <p class="card-text abouttexto"> Somos una Compañia con presencia en el mercado Nacional e Internacional, y trabajamos diariamente para que nuestros clientes
-                    nos tengan presente cuando desean expandirse, modernizar sus equipos y para requerir servicios especializados. Si Ud. aún no es cliente de Sierra,
-                    sepa que será integrado a este ámbito y filosofía de trabajo.
-                </p>
+                <p class="card-text abouttexto"> Confidencialidad: en la información y productos delegados por cada uno de nuestros clientes. <br>
+                    Calidad: implementación de soluciones sostenibles en cada uno de nuestros procesos. <br>
+                    Cumplimiento: de los compromisos adquiridos hacia nuestros cliente internos y externos. <br>
+                    Respeto: hacia nuestros cliente, proveedores, equipo de trabajo y medio ambiente.
+
             </div>
         </div>
     </div>
@@ -38,9 +39,9 @@
             <div class="card" id="history">
                 <div class="card-body">
                     <h5 class="card-title">HISTORIA</h5>
-                    <p class="card-text abouttexto">Somos una Compañia con presencia en el mercado Nacional e Internacional, y trabajamos diariamente para que nuestros clientes
-                        nos tengan presente cuando desean expandirse, modernizar sus equipos y para requerir servicios especializados. Si Ud. aún no es cliente de Sierra,
-                        sepa que será integrado a este ámbito y filosofía de trabajo.</p>
+                    <p class="card-text abouttexto">Somos una empresa con 8 años de experiencia en asesoría y suministro de persianas,
+                        cortinas y polarización. Contamos con personal calificado en la instalación de los diferentes productos que brindamos.</p>
+                    <br>
                 </div>
             </div>
         </div>
@@ -49,9 +50,8 @@
             <div class="card" id="mision">
                 <div class="card-body">
                     <h5 class="card-title">MISIÓN</h5>
-                    <p class="card-text abouttexto">Somos una Compañia con presencia en el mercado Nacional e Internacional, y trabajamos diariamente para que nuestros clientes
-                        nos tengan presente cuando desean expandirse, modernizar sus equipos y para requerir servicios especializados. Si Ud. aún no es cliente de Sierra,
-                        sepa que será integrado a este ámbito y filosofía de trabajo.</p>
+                    <p class="card-text abouttexto">Brindar a nuestros clientes una asesoría personalizada y diferente, de acuerdo a las necesidades que cada uno presente para el cubrimiento
+                        de ventanas y espacios decorativos. Satisfacer sus expectativas con productos de excelente calidad.</p>
                 </div>
             </div>
         </div>
@@ -60,9 +60,9 @@
             <div class="card" id="vision">
                 <div class="card-body">
                     <h5 class="card-title">VISIÓN</h5>
-                    <p class="card-text abouttexto">Somos una Compañia con presencia en el mercado Nacional e Internacional, y trabajamos diariamente para que nuestros clientes
-                        nos tengan presente cuando desean expandirse, modernizar sus equipos y para requerir servicios especializados. Si Ud. aún no es cliente de Sierra,
-                        sepa que será integrado a este ámbito y filosofía de trabajo.</p>
+                    <p class="card-text abouttexto">Ser una empresa competitiva y reconocida en Medellín y Colombia
+                        por la calidad de nuestros productos, el precio y la puntualidad en la entrega.</p>
+                    <br><br>
                 </div>
             </div>
         </div>
@@ -75,14 +75,14 @@
                 <div class="card-header " id="headingOne">
                     <h2 class="mb-0">
                         <button class="btn btn-Dark link btn-block text-left acordeon" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            ¿QUE PRECIO TIENEN?
+                            ¿QUÉ ES LO MÁS IMPORTANTE QUE DEBO TENER PRESENTE AL MOMENTO DE ELEGIR UNA CORTINA O PERSIANA?
                         </button>
                     </h2>
                 </div>
 
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
-                        Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+                        Debe tener claro lo que espera del producto y en qué orden de importancia: obscurecimiento, efecto decorativo, flexibilidad para controlar la luz, protección térmica, aislamiento acústico, etc. para que uno de nuestros distribuidores pueda asesorarlo en la elección de la opción más adecuada para sus propósitos.
                     </div>
                 </div>
             </div>
@@ -90,13 +90,14 @@
                 <div class="card-header" id="headingTwo">
                     <h2 class="mb-0">
                         <button class="btn btn-Dark link btn-block text-left collapsed acordeon" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            ¿CUANTA GARANTIA TIENEN?
+                            ¿CUÁL ES LA MEJOR MANERA DE MANTENER LAS CORTINAS Y PERSIANAS?
                         </button>
                     </h2>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body">
-                        Some placeholder content for the second accordion panel. This panel is hidden by default.
+                        Indicamos la limpieza diaria o semanal, de acuerdo al ambiente en que se encuentra, con el uso de una aspiradora a baja succión o plumero en ambas caras del producto. Realizando este mantenimiento con frecuencia el producto tendrá una vida útil prolongada y se mantendrá siempre elegante.
+                        El método de limpieza apropiado para cada producto está indicado en su certificado de garantía.
                     </div>
                 </div>
             </div>
@@ -104,13 +105,13 @@
                 <div class="card-header" id="headingThree">
                     <h2 class="mb-0">
                         <button class="btn btn-Dark link btn-block text-left collapsed acordeon" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            ¿DONDE ESTAN UBICADOS?
+                            ¿LAS PERSIANAS SE FABRICAN A LA MEDIDA?
                         </button>
                     </h2>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                     <div class="card-body">
-                        And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default
+                    Todas las persianas  son fabricados a la medida exacta de sus requerimientos. Existen soluciones para los más diversos tipos de ventanas y espacios.
                     </div>
                 </div>
             </div>
