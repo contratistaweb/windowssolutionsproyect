@@ -1,4 +1,5 @@
 <?php
+
 class Database
 {
     public $db;
@@ -6,10 +7,21 @@ class Database
     {
         $this->db = null;
         try {
-            $this->db = new mysqli('windowssolutionsbd.mssql.somee.com', 'websolutions_SQLLogin_1', 'bpb58vxxk6', 'windowssolutionsbd');
+            $this->db = new mysqli('localhost', 'windowss_wsdb', 'WindowsSolutions17', 'windowss_wsdb');
         } catch (Exception $e) {
             echo "No hay conexión con la base de datos: " . $e->getMessage();
         }
         return $this->db;
     }
 }
+
+// class Conexion
+// {
+
+//     static public function conectar()
+//     {
+//         $link = new PDO("mysql:host=localhost;dbname=windowss_wsdb", "windowss_wsdb", "WindowsSolutions17");
+//         $link->exec("set names utf8");
+//         return $link;
+//     }
+// }

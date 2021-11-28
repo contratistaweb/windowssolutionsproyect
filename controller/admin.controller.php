@@ -10,7 +10,6 @@ class AdminController
 
     public function AdminLayout()
     {
-
         include_once './views/admin/admin_layout.php';
     }
 
