@@ -53,9 +53,9 @@
                             case "images":
                                 $images->Index();
                                 break;
-                                case "products":
-                                 $products->Index();
-                                 break;
+                            case "products":
+                                $products->Index();
+                                break;
                             case "users":
                                 $users->Index();
                                 break;
