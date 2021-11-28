@@ -4,9 +4,9 @@
     include_once "model/products.php";
 
 
-    $model = new model();
+    //$model = new model();
 
-    $ids = $model->getimg();
+    //$ids = $model->getimg();
 
 
     ?>
@@ -97,6 +97,7 @@
                                     <p class="card-text">precio: <?= $value['est_m2_prod']; ?></p>
 
                                     <form action="http://localhost/windowssolutionsproyect/?admin=products&delete=<?= $value['id_prod']; ?>" method="post">
+
                                       <input type="hidden" name="id_prod" value="<?= $value['id_prod']; ?>">
                                       <button type="submit" name="delete" class="btn btn-danger" role="button"><i class="fa fa-trash"></i></button>
                                  <a name="update" id="update" class="btn btn-primary" role="button" href="http://localhost/windowssolutionsproyect/?admin=products&update=<?= $value['id_prod']; ?>"><i class="fa fa-pencil"></i></a>
@@ -121,12 +122,12 @@
     } else if (isset($_POST['delete'])) {
 
 
-        ProductsController::delete(($_POST['id_prod']));
+       // ProductsController::delete(($_POST['id_prod']));
         header('Location: http://localhost/windowssolutionsproyect/?admin=products');
         ?>
 
         <?php } elseif (isset($_POST['adds'])) {
-        ProductsController::create($_POST['id_img'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
+       // ProductsController::create($_POST['id_img'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
 
         header('Location: http://localhost/windowssolutionsproyect/?admin=products');
         ?>
@@ -199,12 +200,14 @@
 
         <?php } else if (isset($_POST['updatep'])) {
 
-            ProductsController::update($_POST['id'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
+
+          //  ProductsController::update($_POST['id'], $_POST['nombre_product'], $_POST['desc_prod'], $_POST['est_m2_prod'], $_POST['categoria']);
 
 
             header('Location: http://localhost/windowssolutionsproyect/?admin=products');
         } else {
             $resultado = ProductsController::get();
+           
             if($resultado=="no hay resultado"){  
                  echo "   no hay productos  </br>"?>
                 <br>
@@ -252,7 +255,6 @@
 
 
                 <?php  } ?>
-
 
 
             </div>

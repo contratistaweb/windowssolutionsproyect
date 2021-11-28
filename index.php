@@ -3,6 +3,7 @@
 <?php
 include_once "./controller/pages.controller.php";
 include_once "./controller/admin.controller.php";
+include_once "./controller/images.controller.php";
 
 $pages = new PagesControlller();
 $admin = new AdminController();
@@ -67,7 +68,7 @@ if (isset($_GET['pag'])) {
             <link rel="stylesheet" href="assets/css/awl.carousel.min.css">
             <link rel="stylesheet" href="assets/css/gallery-grid.css">
             <link rel="stylesheet" href="assets/css/styleabout.css">
-            <link rel="stylesheet" href="assets/css/propio.css">
+            <link rel="stylesheet" href="assets/css/propio.css"> 
         </head>
 
         <body>
@@ -97,7 +98,7 @@ if (isset($_GET['pag'])) {
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
             <link rel="stylesheet" href="assets/css/adminStyles.css">
-            <link rel="stylesheet" href="assets/css/propio.css">
+            <link rel="stylesheet" href="assets/css/propio.css"> 
             <title>Windows Solutions | Administacion del sitio</title>
         </head>
 
@@ -110,7 +111,7 @@ if (isset($_GET['pag'])) {
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
             <script src="https://kit.fontawesome.com/67c6ce199d.js" crossorigin="anonymous"></script>
             <script src="assets/js/app.js"></script>
-         
+
         </body>
 <?php
     }
