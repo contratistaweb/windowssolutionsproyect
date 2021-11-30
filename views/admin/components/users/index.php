@@ -1,4 +1,4 @@
-<h1>Admin users</h1>
+<div class="col-md-10"><h1>Admin users</h1></div><div class="col-md-2"><a name="btnCreate" id="btnCreate" class="btn btn-primary" href="/?admin=users&create=view" role="button">New user</a></div>
 <?php
 
 // if (!isset($_SESSION["validarSesion"])) {

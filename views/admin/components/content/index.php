@@ -137,7 +137,7 @@ if (isset($_GET['deleteItem'])) {
                     $content = ContentController::ctrGetOneContents($_GET['update']);
                     foreach ($content as $key => $value) {
                     ?>
-                        <form method="post" action="/windowssolutionsproyect/?admin=content&action">
+                        <form method="post" action="/?admin=content&action">
 
                             <legend>Actualizar contenido</legend>
 
